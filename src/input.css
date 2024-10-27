@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply bg-gradient-to-r from-bg-form-dark to-bg-to-dark flex gap-4 py-4 px-6 rounded-lg font-semibold text-white text-lg
+}
